@@ -1,4 +1,19 @@
 # Word-Groupings
+Create a virtual env
+
+`python3 -m venv venv`
+
+Activate it
+
+`source venv/bin/activate`
+
+Install requirements
+`pip install -r requirements.txt`
+
+endpoints
+
+GET http://localhost:5000/groupedWords/   - to group existing words
+POST http://localhost:5000/addWord/<new_word>   -  to add a new word
 
 Run the server using command
 (If needed please set PYTHONPATH=src)
