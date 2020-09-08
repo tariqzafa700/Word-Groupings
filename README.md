@@ -1,6 +1,7 @@
 # Word-Groupings
 
 Run the server using command
+(If needed please set PYTHONPATH=src)
 
 `flask run`
 
